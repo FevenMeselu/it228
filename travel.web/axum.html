@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel Guid</title>
+    <meta name="robots" content="noindex,nofollow" >
+    <meta name="viewport" content="width=device-width" >
+    <meta charset="utf-8" >
+    <link rel="stylesheet" href="css/portal.css" >
+    <link rel="stylesheet" href="css/nav.css" >
+    <link rel="stylesheet" href="css/stylegallary.css" >
+  </head>
+  <body>
+    <header>
+      <h1>Popular places to visit in Ethiopia</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html"class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="template-contact.php">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+
+    <div class="wrapper">
+      <article class="main-content">
+
+        <div class="catalogue-container">
+          <div class="my-container">
+            <img
+              width="476"
+              height="284"
+              src="images/axum.jpg"
+              alt="Axum, Ancient city"
+
+            >
+            <h2>Axum</h2>
+
+            <p>
+                A major empire of the ancient world, the kingdom of Aksum arose in Ethiopia during the first century C.E. This wealthy African civilization thrived for centuries, controlling a large territorial state and access to vast trade routes linking the Roman Empire to the Middle East and India.
+            </p>
+            <button class="cart-btn">Read more</button>
+          </div>
+
+    <footer>
+      <p>
+        <small> <a href="index.html">HOME</a></small>
+      </p>
+      <p>
+        <small
+          >&copy; 2023 by Travel Guid Ethiopia
+          <a href="contact.html">contact us </a>, All Rights Reserved |
+          ,<a href="disclaimer.html"> Disclaimer / Privacy Notice</a> 
+         </a>
+        </small>
+      </p>
+    </footer>
+  </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

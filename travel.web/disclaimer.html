@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Travel Guide Ethiopia</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/portal.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/stylegallary.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Travel Guide Ethiopia</h1>
+      <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.php">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+    <div class="wrapper">
+      <h2 class="subheader"><strong> Disclaimer / Privacy Notice</strong></h2>
+      <p>
+        Travel Guide Ethiopia respect your right to privacy and have established this Privacy Notice to inform you of our practices regarding the information we collect from you. Please read this Privacy Notice carefully to understand how we collect, use, and disclose your personal information in connection with the services we provide. We use your personal information to provide you with the services you have requested, such as booking tours, arranging transportation, and making hotel reservations. We may also use your personal information to send you promotional offers, newsletters, or other marketing materials. We take reasonable measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. We have implemented technical and organizational security measures to safeguard your personal information.
+      </p>
+    
+      <footer>
+        <p> 
+          <p> <a href="index.html" >HOME</a> </p>
+          <small
+            >&copy; 2023 Travel Guide Ethiopia <a href="contact.html">contact us </a>, All
+            Rights Reserved | ,<a href="disclaimer.html">
+              Disclaimer / Privacy Notice</a>
+          </small>
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      //https://tinyurl.com/dynamic-html-checker
+      document
+        .getElementById("html-checker")
+        .setAttribute(
+          "href",
+          "https://validator.w3.org/nu/?doc=" + location.href
+        );
+
+      document
+        .getElementById("css-checker")
+        .setAttribute(
+          "href",
+          "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href
+        );
+
+      //manages mobile nav
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
